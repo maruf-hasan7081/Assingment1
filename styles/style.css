@@ -46,7 +46,7 @@ body {
 .hero-section{
     height: 674px;
     width: 1270px;
-    background-image: url(/assets/hero-bg.png);
+    background-image: url("../assets/hero-bg.png");
     display: flex;
     justify-content: center;
     align-items: center;
