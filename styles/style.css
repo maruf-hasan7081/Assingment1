@@ -44,6 +44,10 @@ body{
     padding: 20px;
 
 }
+.box button:hover{
+    background-color: rgba(88, 70, 145, 0.8);
+    cursor: pointer;
+}
 .hero-section{
     height: 674px;
     width: 1270px;
@@ -60,9 +64,7 @@ body{
     text-align: center;
     padding-top: 200px;
 }
-.hero-text:hover{
-    background-color: rgba(255, 255, 255, 0.5);
-}
+
 .note{
     text-align: center;
 }
@@ -188,4 +190,15 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #001931;
+}
+.class1{
+        color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: url('../assets/ArrowRight.png') no-repeat right center;
+    background-color: green;
+
+
 }
