@@ -67,7 +67,7 @@ body {
 }
 .note-section{
     height: 300px;
-    width: 1270px;
+    width: 1030px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,4 +113,31 @@ body {
     text-align: center;
     padding-top: 70px;
 
+}
+.second-brain-section{
+    height:840px;
+    width:1270px;
+    
+    
+}
+.box-contain{
+  width: 1360px;
+  height: 600px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.box2{
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 100px;
+}
+.box1 img{
+   margin-left: 120px;
+   margin-top: 120px;
+}
+.box2 li{
+    list-style-image: url('../assets/CheckCircle.png');
 }
