@@ -1,7 +1,8 @@
-body {
-    height:2908px;
-    width: 1270px;
+body{
+  margin: 0;
+  width: 100%;
 }
+
 .box ul {
     display: flex;
     gap: 32px;
@@ -140,4 +141,51 @@ body {
 }
 .box2 li{
     list-style-image: url('../assets/CheckCircle.png');
+}
+.Early Access Section{
+    height: 600px;
+    width: 1270px;
+
+}
+.early-access-container{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 1270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}  
+.access-contain{
+    text-align: center;
+
+} 
+.access-contain button{
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: url('../assets/ArrowRight.png') no-repeat right center;
+    background-color: green;
+
+}
+.access-contain button:hover{
+    background-color: rgba(88, 70, 145, 0.8);
+}
+.footer-section{
+    height: 400px;
+    width: 1270px;
+    margin: 0 auto;
+    background-color: #001931;
+}
+
+.footer-container{
+  width: 1270px;
+  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #001931;
 }
