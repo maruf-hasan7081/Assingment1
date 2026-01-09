@@ -62,4 +62,55 @@ body {
 .hero-text:hover{
     background-color: rgba(255, 255, 255, 0.5);
 }
+.note{
+    text-align: center;
+}
+.note-section{
+    height: 300px;
+    width: 1270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+}
 
+.card1-note img{
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.card2-note img{
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.card3-note img{
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.card4-note img{
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.card1-note, .card2-note, .card3-note, .card4-note {
+    width: 300px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+
+}
